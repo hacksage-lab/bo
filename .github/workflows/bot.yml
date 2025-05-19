@@ -17,5 +17,5 @@ jobs:
       run: pip install -r requirements.txt
     - name: Run bot
       env:
-        BOT_TOKEN: ${{ secrets.7880927251:AAEeolQ3a3rRgl_H7bETjFlrXuNKc827Cbg }}
+        BOT_TOKEN: ${{ secrets.bo }}
       run: python3 bot.py
